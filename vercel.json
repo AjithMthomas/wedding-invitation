@@ -1,60 +1,25 @@
 {
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite",
-  "cleanUrls": true,
   "redirects": [
     {
       "source": "/",
+      "destination": "/sooraj-shena-invitation",
+      "permanent": false
+    },
+    {
+      "source": "/sooraj%20shena%20invitation",
+      "destination": "/sooraj-shena-invitation",
+      "permanent": false
+    },
+    {
+      "source": "/sooraj-sneha-invitation",
       "destination": "/sooraj-shena-invitation",
       "permanent": false
     }
   ],
   "rewrites": [
     {
-      "source": "/sooraj-shena-invitation",
+      "source": "/(.*)",
       "destination": "/index.html"
-    },
-    {
-      "source": "/sooraj-sneha-invitation",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/sooraj-shena-invitation/(.*)",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/sooraj-sneha-invitation/(.*)",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/((?!assets/|images/|audio/|.*\\..*).*)",
-      "destination": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/audio/(.*)",
-      "headers": [
-        {
-          "key": "Accept-Ranges",
-          "value": "bytes"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/images/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
     }
   ]
 }

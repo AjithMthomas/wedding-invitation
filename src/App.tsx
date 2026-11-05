@@ -18,7 +18,13 @@ export const App: React.FC = () => {
 
   // Ensure path is /sooraj-shena-invitation in the URL bar
   useEffect(() => {
-    if (window.location.pathname === '/' || window.location.pathname === '') {
+    const currentPath = decodeURIComponent(window.location.pathname).replace(/\/+$/, '');
+    if (
+      currentPath === '' ||
+      currentPath === '/' ||
+      currentPath === '/sooraj shena invitation' ||
+      currentPath === '/sooraj-sneha-invitation'
+    ) {
       window.history.replaceState(null, '', '/sooraj-shena-invitation' + window.location.hash);
     }
   }, []);
