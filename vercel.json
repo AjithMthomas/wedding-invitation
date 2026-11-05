@@ -1,0 +1,35 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/sooraj-shena-invitation",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/sooraj-shena-invitation",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/sooraj-sneha-invitation",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/sooraj-shena-invitation/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/sooraj-sneha-invitation/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/((?!assets/|images/|favicon.ico).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

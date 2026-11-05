@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    background-color: #301D1B;
+    color: #F8F4EC;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Custom 3D perspective styles for invitation */
+.perspective-1000 {
+  perspective: 1200px;
+}
+
+.perspective-2000 {
+  perspective: 2000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Gold foil text shimmer */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F4E7CE 0%, #C5A45C 50%, #D8C49A 75%, #8C6F32 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    #C5A45C 0%,
+    #FFF4D9 25%,
+    #C5A45C 50%,
+    #D8C49A 75%,
+    #C5A45C 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 6s linear infinite;
+}
+
+/* Luxury border styles */
+.gold-border {
+  border: 1px solid rgba(197, 164, 92, 0.4);
+}
+
+.gold-border-double {
+  border: 3px double rgba(197, 164, 92, 0.5);
+}
+
+/* Lace overlay pattern */
+.lace-pattern {
+  background-image: radial-gradient(rgba(248, 244, 236, 0.08) 1px, transparent 1px),
+                    radial-gradient(rgba(197, 164, 92, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* Paper grain texture */
+.paper-texture {
+  background-image: 
+    radial-gradient(ellipse at center, rgba(100, 31, 43, 0.95) 0%, rgba(69, 21, 29, 0.98) 100%),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.015) 0px, rgba(255, 255, 255, 0.015) 1px, transparent 1px, transparent 4px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2E0E14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C5A45C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D8C49A;
+}
+
+@keyframes floatParticle {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
