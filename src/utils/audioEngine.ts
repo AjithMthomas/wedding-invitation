@@ -21,7 +21,7 @@ class WeddingAudioEngine {
 
   private initAudio() {
     if (!this.audioEl) {
-      this.audioEl = new Audio('/audio/shehnai_wedding.mp3');
+      this.audioEl = new Audio('/audio/joyful_wedding_melody.mp3');
       this.audioEl.loop = true;
       this.audioEl.preload = 'auto';
       this.audioEl.volume = this.volume;

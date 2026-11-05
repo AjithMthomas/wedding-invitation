@@ -81,7 +81,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({ autoStartTrigger = fal
       {isExpanded && (
         <div className="bg-[#45151D]/95 backdrop-blur-md border border-[#C5A45C]/50 rounded-full px-4 py-2 flex items-center gap-3 shadow-2xl animate-fade-in text-[#F8F4EC]">
           <span className="text-xs font-serif text-[#D8C49A] hidden sm:inline whitespace-nowrap">
-            Hindu Wedding Shehnai Dhun
+            Raag Hansdhwani • Joyful Flute
           </span>
           <input
             type="range"
@@ -102,7 +102,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({ autoStartTrigger = fal
         <button
           onClick={togglePlay}
           className="w-10 h-10 rounded-full bg-gradient-to-br from-[#641F2B] to-[#301015] flex items-center justify-center text-[#C5A45C] hover:text-[#FFF4D9] hover:scale-105 active:scale-95 transition-all shadow-md border border-[#C5A45C]/40"
-          title={isPlaying ? 'Pause music' : 'Play Hindu wedding music'}
+          title={isPlaying ? 'Pause music' : 'Play joyful wedding music'}
         >
           {isPlaying ? (
             <Pause className="w-4 h-4 fill-current" />
@@ -125,10 +125,10 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({ autoStartTrigger = fal
           />
           <div className="flex flex-col">
             <span className="text-[11px] font-royal tracking-widest text-[#D8C49A] group-hover:text-[#F8F4EC] transition-colors leading-tight">
-              {isPlaying ? 'HINDU WEDDING SHEHNAI' : 'MUSIC PAUSED'}
+              {isPlaying ? 'JOYFUL WEDDING FLUTE' : 'MUSIC PAUSED'}
             </span>
             <span className="text-[9px] text-[#EEE5D7]/70 font-sans leading-tight hidden xs:inline">
-              Auspicious Wedding Dhun
+              Pleasant & Auspicious Harmony
             </span>
           </div>
         </button>
