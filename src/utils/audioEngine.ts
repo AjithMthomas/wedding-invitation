@@ -1,7 +1,7 @@
 /**
- * Authentic Hindu Wedding Shehnai & Sacred Audio Engine
+ * Wedding Audio Engine
  * Features:
- * - Authentic Hindu Wedding Shehnai instrumental (Ustad Bismillah Khan - Auspicious Benarasi Wedding Dhun)
+ * - Ahaana Krishna's "Pookkal (Wedding Version)"
  * - Real-time Web Audio AnalyserNode for equalizer visualizer
  * - Physical interaction sound effects (Wax seal crack & temple brass bell chime)
  * - Resilient autoplay handling and background music persistence
@@ -21,7 +21,7 @@ class WeddingAudioEngine {
 
   private initAudio() {
     if (!this.audioEl) {
-      this.audioEl = new Audio('/audio/joyful_wedding_melody.mp3');
+      this.audioEl = new Audio('/audio/pookkal_wedding_version.mp3');
       this.audioEl.loop = true;
       this.audioEl.preload = 'auto';
       this.audioEl.volume = this.volume;
@@ -45,7 +45,6 @@ class WeddingAudioEngine {
         this.analyser.connect(this.ctx.destination);
         this.isConnectedToWebAudio = true;
       } catch (e) {
-        // Fallback for browsers with media element source restrictions
         console.warn('Audio media element source note:', e);
       }
     }
@@ -129,7 +128,7 @@ class WeddingAudioEngine {
     }
   }
 
-  // Start continuous auspicious Hindu Wedding Shehnai music
+  // Start continuous wedding music
   public startMusic() {
     this.initAudio();
     if (!this.audioEl) return;

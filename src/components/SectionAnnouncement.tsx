@@ -51,7 +51,7 @@ export const SectionAnnouncement: React.FC = () => {
           className="my-6"
         >
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-royal font-bold text-gold-shimmer tracking-wide">
-            Sneha Dilip
+            Sneha D
           </h1>
           <div className="flex items-center justify-center my-2 gap-4">
             <span className="w-12 h-[1px] bg-[#C5A45C]/40" />
@@ -59,7 +59,7 @@ export const SectionAnnouncement: React.FC = () => {
             <span className="w-12 h-[1px] bg-[#C5A45C]/40" />
           </div>
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-royal font-bold text-gold-shimmer tracking-wide">
-            Sooraj
+            Sooraj V
           </h1>
         </motion.div>
 

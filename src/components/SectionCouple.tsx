@@ -64,7 +64,7 @@ export const SectionCouple: React.FC = () => {
                 The Bride
               </span>
               <h3 className="text-3xl sm:text-4xl font-royal font-bold text-gold-shimmer mb-2">
-                Sneha Dilip
+                Sneha D
               </h3>
               <p className="text-sm font-serif text-[#EEE5D7] leading-relaxed italic">
                 Graceful, gentle, and radiant with quiet strength. A cherished daughter stepping forward with joy into a sacred new chapter of life.
@@ -73,7 +73,7 @@ export const SectionCouple: React.FC = () => {
           </motion.div>
 
           {/* ========================================================= */}
-          {/* GROOM: Sooraj */}
+          {/* GROOM: Sooraj V */}
           {/* ========================================================= */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
@@ -86,7 +86,7 @@ export const SectionCouple: React.FC = () => {
             <div className="relative w-full max-w-sm aspect-[3/4] rounded-2xl overflow-hidden shadow-luxury border border-[#C5A45C]/50 group mb-6">
               <img
                 src="/images/couple/couple_3.jpeg"
-                alt="Sooraj - The Groom"
+                alt="Sooraj V - The Groom"
                 className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#2E0E14] via-transparent to-transparent opacity-50" />
@@ -101,7 +101,7 @@ export const SectionCouple: React.FC = () => {
                 <Sparkles className="w-3 h-3 text-[#C5A45C]" />
               </span>
               <h3 className="text-3xl sm:text-4xl font-royal font-bold text-gold-shimmer mb-2">
-                Sooraj
+                Sooraj V
               </h3>
               <p className="text-sm font-serif text-[#EEE5D7] leading-relaxed italic">
                 Steadfast, kind-hearted, and driven by love. A devoted son and loving partner eager to build a life of shared dreams and happiness.

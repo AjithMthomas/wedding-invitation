@@ -50,7 +50,7 @@ export const SectionSacredBlessing: React.FC = () => {
           </h3>
 
           <p className="text-xl sm:text-2xl md:text-3xl font-serif text-[#FAF7F2] font-light leading-relaxed max-w-2xl mx-auto mb-8">
-            "With immense joy and the blessings of our families, we invite you to join us in celebrating the sacred union of <span className="text-gold-shimmer font-medium">Sneha</span> and <span className="text-gold-shimmer font-medium">Sooraj</span>."
+            "With immense joy and the blessings of our families, we invite you to join us in celebrating the sacred union of <span className="text-gold-shimmer font-medium">Sneha D</span> and <span className="text-gold-shimmer font-medium">Sooraj V</span>."
           </p>
 
           <p className="text-xs sm:text-sm text-[#EEE5D7]/85 font-serif italic max-w-lg mx-auto mb-10 leading-relaxed">

@@ -65,7 +65,7 @@ export const SectionFamily: React.FC = () => {
               </span>
 
               <h3 className="text-3xl sm:text-4xl font-royal font-bold text-gold-shimmer mb-3">
-                Sneha Dilip
+                Sneha D
               </h3>
 
               <p className="text-xs uppercase tracking-widest text-[#EEE5D7]/70 font-sans mb-1">
@@ -135,7 +135,7 @@ export const SectionFamily: React.FC = () => {
               </span>
 
               <h3 className="text-3xl sm:text-4xl font-royal font-bold text-gold-shimmer mb-3">
-                Sooraj
+                Sooraj V
               </h3>
 
               <p className="text-xs uppercase tracking-widest text-[#EEE5D7]/70 font-sans mb-1">

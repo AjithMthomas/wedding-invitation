@@ -123,7 +123,7 @@ export const SectionClosingBlessing: React.FC = () => {
 
           <div className="my-6">
             <h3 className="text-4xl sm:text-5xl md:text-6xl font-royal font-bold text-gold-shimmer">
-              Sneha & Sooraj
+              Sneha D & Sooraj V
             </h3>
             <p className="text-xs font-royal tracking-[0.25em] text-[#C5A45C] uppercase mt-2">
               #SnehaWedsSooraj

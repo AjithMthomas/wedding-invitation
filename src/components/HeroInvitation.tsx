@@ -114,11 +114,11 @@ export const HeroInvitation: React.FC<HeroInvitationProps> = ({ isOpen, onOpen }
               <OrnamentalDivider variant="lotus" className="my-2" />
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-royal font-bold text-gold-shimmer my-1">
-                Sneha Dilip
+                Sneha D
               </h1>
               <p className="text-xl sm:text-2xl font-script text-[#D8C49A] my-0.5">&</p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-royal font-bold text-gold-shimmer mb-3">
-                Sooraj
+                Sooraj V
               </h1>
 
               <p className="text-xs sm:text-sm text-[#F8F4EC]/90 font-serif max-w-md mx-auto leading-relaxed italic px-2">
@@ -205,7 +205,7 @@ export const HeroInvitation: React.FC<HeroInvitationProps> = ({ isOpen, onOpen }
                 <span>☙</span>
               </div>
               <div className="relative z-10 text-center font-royal text-[#D8C49A]/80 text-[10px] sm:text-xs tracking-[0.2em] uppercase writing-vertical">
-                SNEHA & SOORAJ
+                SNEHA D & SOORAJ V
               </div>
               <div className="relative z-10 flex justify-end text-[#C5A45C]/50 text-xs">
                 <span>☙</span>
